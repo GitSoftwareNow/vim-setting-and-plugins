@@ -26,7 +26,7 @@
 - 打开vim并执行bundle程序`:BundleInstall`
 - 重新打开vim即可看到效果
 
-### 了解更多vim使用的小技巧：
+### 了解更多vim使用的奇技淫巧：
 
 [tips.md](tips.md)
 
