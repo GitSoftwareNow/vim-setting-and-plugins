@@ -6,6 +6,8 @@
 
 ![screenshot.png](screenshot.png)
 
+![ef.gif](ef.gif)
+
 ### 简易安装方法：
 
 打开终端，执行下面的命令就自动安装好了：
