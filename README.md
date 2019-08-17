@@ -5,6 +5,7 @@
 ### 运行截图
 
 ![screenshot.png](screenshot.png)
+![ef.gif](ef.gif)
 
 ### 简易安装方法：
 
