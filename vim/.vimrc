@@ -83,6 +83,8 @@ set iskeyword+=_,$,@,%,#,-
 au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn}   set filetype=mkd
 au BufRead,BufNewFile *.{go}   set filetype=go
 au BufRead,BufNewFile *.{js}   set filetype=javascript
+au BufRead,BufNewFile *.{cpp}  set filetype=c++
+
 "rkdown to HTML  
 nmap md :!~/.vim/markdown.pl % > %.html <CR><CR>
 nmap fi :!firefox %.html & <CR><CR>
@@ -417,6 +419,7 @@ Bundle 'L9'
 Bundle 'FuzzyFinder'
 " non github repos
 Bundle 'https://github.com/wincent/command-t.git'
+Bundle 'VundleVim/Vundle.vim'
 Bundle 'Auto-Pairs'
 Bundle 'python-imports.vim'
 Bundle 'CaptureClipboard'
@@ -439,6 +442,9 @@ Bundle 'The-NERD-Commenter'
 Bundle 'django_templates.vim'
 Bundle 'Django-Projects'
 
+"Plugin 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
+
 "Bundle 'FredKSchott/CoVim'
 "Bundle 'djangojump'
 " ...
@@ -447,6 +453,7 @@ let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 
 filetype plugin indent on     " required!
+
 "
 "ctrlp设置
 "
@@ -458,4 +465,9 @@ let g:ctrlp_custom_ignore = '\v\.(exe|so|dll)$'
 let g:ctrlp_extensions = ['funky']
 
 let NERDTreeIgnore=['\.pyc']
+
+let g:ycm_global_ycm_ecxtra_conf='~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
+let g:ycm_seed_identifiers_with_syntax=1
+
+
 
