@@ -11,7 +11,7 @@
 
 打开终端，执行下面的命令就自动安装好了：
 
-`wget -qO- https://github.com/GitSoftwareNow/vim-setting-and-plugins/blob/master/vim/setup.sh | sh -x`
+`wget -qO- https://github.com/GitSoftwareNow/vim-setting-and-plugins/blob/master/setup.sh | sh -x`
 
 ### 或者自己手动安装：(以ubuntu为例)
 
